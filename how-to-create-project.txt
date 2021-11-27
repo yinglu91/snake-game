@@ -1,0 +1,28 @@
+Section 20: Day 20 - Intermediate - Build the Snake Game Part 1: Animation & Coordinates
+https://www.udemy.com/course/100-days-of-code/learn/lecture/20359981#overview
+
+$ mkdir snake-game
+$ cd snake-game
+$ code .
+
+-- 1. set up virtual env.
+$ ctrl + `
+$ virtualenv venv
+$ source venv/Scripts/activate
+
+-- 2. create python 'hollo world' program to test out
+$ touch main.py
+$ echo 'print("hello world")' > main.py
+
+Open the main.py, right click its content, Run Python File in Terminal
+you will see
+
+(venv) $ .../snake-game/main.py
+hello world
+(venv) $
+
+-- 3. delete the content in main.py, start the work...
+
+-- 4.
+$ pip freeze > requirements.txt
+-- empty due to nothing is installed using 'pip install x'
